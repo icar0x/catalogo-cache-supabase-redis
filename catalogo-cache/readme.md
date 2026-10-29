@@ -122,22 +122,11 @@ Cada combinação de filtro e busca é uma consulta diferente e gera uma **chave
 
 **Benefício observado:** na interface, a origem dos dados e o tempo de resposta aparecem a cada consulta. A primeira vez que uma consulta é feita (por exemplo, buscar "notebook"), ela vai ao Supabase. Se a mesma consulta se repete, é atendida pelo Redis, sem acessar o banco, com tempo de resposta menor. Como o Redis Cloud também é remoto, parte do tempo é de rede; com o Redis próximo da aplicação, o ganho tende a ser maior.
 
-## Capturas de tela
 
-> Salve as imagens na pasta `docs/` e ajuste os nomes abaixo.
-
-| Tela | Imagem |
-|---|---|
-| Catálogo — dados vindos do Supabase | ![Supabase](docs/catalogo-supabase.png) |
-| Catálogo — dados vindos do Redis (cache) | ![Redis](docs/catalogo-redis.png) |
-| Busca por nome atendida pelo Redis | ![Busca](docs/busca-redis.png) |
-| Painel Redis (hits, misses e TTL) | ![Painel](docs/painel-redis.png) |
-| Tabela `produtos` no Supabase | ![Tabela](docs/supabase-tabela.png) |
-| Chaves no Redis Insight | ![Insight](docs/redis-insight.png) |
 
 ## Vídeo demonstrativo
 
-Link do vídeo: `<COLE-AQUI-O-LINK>`
+Link do vídeo: `https://canva.link/5f9v2knl9o90lbn`
 
 ## Autor
 
