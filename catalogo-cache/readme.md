@@ -126,7 +126,7 @@ Cada combinação de filtro e busca é uma consulta diferente e gera uma **chave
 
 ## Vídeo demonstrativo
 
-Link do vídeo: `https://canva.link/5f9v2knl9o90lbn`
+Link do vídeo: https://canva.link/ehkriebfwblzw61
 
 ## Autor
 
